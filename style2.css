@@ -1,0 +1,56 @@
+a {
+  color:black;
+  text-decoration: none;
+}
+h1{
+  font-size:45px ;
+  text-align: center;
+  border-bottom:1px solid gray;
+  margin:0;
+  padding:20px;
+}
+ol{
+  width:160px;
+  border-right:1px solid gray;
+  margin:0;
+  padding:20px;
+  padding-top:15px;
+}
+body{
+  margin:0;
+}
+#grid{
+  display:grid;
+  grid-template-columns: 220px 1fr;
+}
+#grid ol{
+  padding-left:32px;
+}
+#article{
+  padding-left:25px;
+}
+@media(max-width:800px){
+  #grid{
+    display:block;
+  }
+  #grid ol{
+    border-right:none;
+  }
+  h1{
+    border-bottom:none;
+  }
+}
+h2{
+  display:inline;
+  height:32px;
+  margin:0px;
+}
+#input2{
+  padding-top:4px;
+}
+#head2{
+  margin-top: 15px;
+  margin-bottom:10px;
+  display:grid;
+  grid-template-columns:260px 1fr;
+}
